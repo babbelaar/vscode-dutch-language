@@ -3242,7 +3242,7 @@
             "miLicense": "&&Licentie weergeven",
             "miPrivacyStatement": "Privacy&&verklaring",
             "miTipsAndTricks": "Tips en &&trucs",
-            "miUserVoice": "&&Zoek functieaanvragen",
+            "miUserVoice": "&&Zoek functionaliteitaanvragen",
             "miVideoTutorials": "&&Videotutorials",
             "miYouTube": "&&Volg ons op YouTube",
             "newsletterSignup": "Meld je aan voor de VS Code-nieuwsbrief.",
@@ -3250,7 +3250,7 @@
             "openLicenseUrl": "Licentie weergeven",
             "openPrivacyStatement": "Privacyverklaring",
             "openTipsAndTricksUrl": "Tips en trucs",
-            "openUserVoiceUrl": "Zoek functieaanvragen",
+            "openUserVoiceUrl": "Zoek functionaliteitaanvragen",
             "openVideoTutorialsUrl": "Videotutorials",
             "openYouTubeUrl": "Volg ons op YouTube"
         },
@@ -7555,7 +7555,7 @@
             "exclude": "Configureer [Glob-patronen](https://aka.ms/vscode-glob-patterns) om bestanden en mappen uit te sluiten. Bijvoorbeeld, de bestandsverkenner beslist op basis van deze instelling welke bestanden en mappen moeten worden weergegeven of verborgen. Zie de instelling `#search.exclude#` voor het defini\u00ebren van op zoek gebaseerde uitsluitingen. Zie de instelling `#explorer.excludeGitIgno\u2026"
         },
         "vs/workbench/contrib/files/browser/views/emptyView": {
-            "noWorkspace": "No folder open."
+            "noWorkspace": "Geen map geopend"
         },
         "vs/workbench/contrib/files/browser/views/explorerDecorationsProvider": {
             "canNotResolve": "The workspace folder ({0}) cannot be resolved.",
@@ -9335,7 +9335,7 @@
             "keyboardShortcuts": "Toetsencombinaties",
             "miOpenOnlineSettings": "Einstellingen voor Onlinedienste",
             "miOpenSettings": "Instellingen",
-            "miOpenTelemetrySettings": "Telemetrieeinstellingen",
+            "miOpenTelemetrySettings": "Telemetrie-instellingen",
             "miPreferences": "Instellingen",
             "openAccessibilitySettings": "Toegankelijkheidsinstellingen openen",
             "openApplicationSettingsJson": "Toepassingsinstellingen openen (JSON)",
@@ -9423,7 +9423,7 @@
             "oneResult": "1 instelling gevonden",
             "settings": "Instellingen",
             "settings require trust": "Vertrouwensniveau van de werkruimte",
-            "turnOnSyncButton": "Instellingen voor back-up en synchronisatie inschakelen"
+            "turnOnSyncButton": "Synchronisatie en back-upinstellingen"
         },
         "vs/workbench/contrib/preferences/browser/settingsEditorSettingIndicators": {
             "alsoConfiguredElsewhere": "Ook elders geconfigureerd",
@@ -12175,15 +12175,15 @@
             "closeAriaLabel": "Sluiten",
             "footer": "{0} verzamelt gebruiksgegevens. Lees onze {1} en ontdek hoe u {2}.",
             "gettingStarted.allStepsComplete": "Alle {0} stappen voltooid!",
-            "gettingStarted.editingEvolved": "Geavanceerde bewerking",
+            "gettingStarted.editingEvolved": "Bewerken heruitgevonden",
             "gettingStarted.keyboardTip": "Tip: Gebruik de sneltoets ",
             "gettingStarted.someStepsComplete": "{0} van de {1} stappen voltooid",
             "imageShowing": "Afbeelding toont {0}",
             "new": "Nieuw",
             "newItems": "Bijgewerkt",
             "nextOne": "Volgende sectie",
-            "noRecents": "U heeft geen recent gebruikte mappen,",
-            "openFolder": "Een map openen",
+            "noRecents": "U heeft geen recent gebruikte mappen, ",
+            "openFolder": "open een map",
             "optOut": "Abonnement opzeggen",
             "pickWalkthroughs": "Stapsgewijze uitleg openen...",
             "privacy statement": "Privacyverklaring",
@@ -12196,7 +12196,7 @@
             "welcome": "Welkom",
             "welcomeAriaLabel": "Overzicht om snel aan de slag te gaan in uw editor.",
             "welcomePage.openFolderWithPath": "Map {0} met pad {1} openen",
-            "welcomePage.showOnStartup": "Welkomstpagina weergeven bij het opstarten"
+            "welcomePage.showOnStartup": "Toon Welkomstpagina bij het opstarten"
         },
         "vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.contribution": {
             "deprecationMessage": "Verouderd, gebruik de wereldwijde `workbench.reduceMotion`.",
@@ -12306,7 +12306,7 @@
             "gettingStarted.openMac.description": "Hiermee opent u een bestand of map om aan het werk te gaan.",
             "gettingStarted.openMac.title": "Openen...",
             "gettingStarted.pickColor.description.interpolated": "Het juiste ontwerp helpt u zich te concentreren op uw code, is prettig voor de ogen en maakt het gewoon leuker.\r\n{0}",
-            "gettingStarted.pickColor.title": "Kleuren kiezen",
+            "gettingStarted.pickColor.title": "Thema kiezen",
             "gettingStarted.quickOpen.description.interpolated": "Met een toetsaanslag kunt u direct tussen bestanden schakelen. Tip: Open meerdere bestanden door op de RECHTERPIJL-toets te drukken.\r\n{0}",
             "gettingStarted.quickOpen.title": "Snel navigeren tussen uw bestanden",
             "gettingStarted.scm.description.interpolated": "Geen behoefte meer aan Git-opdrachten opzoeken! Git- en GitHub-workflows zijn naadloos ge\u00efntegreerd.\r\n{0}",
@@ -12317,14 +12317,14 @@
             "gettingStarted.settings.title": "Optimaliseer uw instellingen",
             "gettingStarted.settingsSync.description.interpolated": "Houd uw essenti\u00eble aanpassingen veilig en up-to-date op al uw apparaten.\r\n{0}",
             "gettingStarted.settingsSync.title": "Instellingen synchroniseren tussen apparaten",
-            "gettingStarted.setup.OpenFolder.description.interpolated": "Begin nu met coderen. Open een projectmap om uw bestanden naar VS Code te verplaatsen.\r\n{0}",
+            "gettingStarted.setup.OpenFolder.description.interpolated": "Begin nu met programmeren. Open een projectmap om uw bestanden naar VS Code te verplaatsen.\r\n{0}",
             "gettingStarted.setup.OpenFolder.title": "Uw code openen",
-            "gettingStarted.setup.OpenFolderWeb.description.interpolated": "U bent klaar om met coderen te beginnen. U kunt een lokaal project of een externe repository openen om uw bestanden naar VS Code over te brengen.\r\n{0}\r\n{1}",
-            "gettingStarted.setup.description": "Pas uw editor aan, leer de basisprincipes en begin met coderen.",
+            "gettingStarted.setup.OpenFolderWeb.description.interpolated": "U bent klaar om met programmeren te beginnen. U kunt een lokaal project of een externe repository openen om uw bestanden naar VS Code over te brengen.\r\n{0}\r\n{1}",
+            "gettingStarted.setup.description": "Pas uw editor aan, leer de basisprincipes en begin met programmeren.",
             "gettingStarted.setup.title": "VS Code Eerste stappen",
             "gettingStarted.setupScreenReader.description": "Leer meer over de tools en sneltoetsen waarmee VS Code toegankelijk is. Let op dat sommige acties niet kunnen worden uitgevoerd binnen de context van de exemplarische benadering.",
             "gettingStarted.setupScreenReader.title": "Aan de slag met VS Code via een schermlezer",
-            "gettingStarted.setupWeb.description": "Pas uw editor aan, leer de basisprincipes en begin met coderen.",
+            "gettingStarted.setupWeb.description": "Pas uw editor aan, leer de basisprincipes en begin met programmeren.",
             "gettingStarted.setupWeb.title": "Eerste stappen met VS Code voor het web",
             "gettingStarted.shortcuts.description.interpolated": "Nadat u uw favoriete opdrachten hebt ontdekt, kunt u aangepaste sneltoetscombinaties maken voor directe toegang.\r\n{0}",
             "gettingStarted.shortcuts.title": "Pas uw sneltoetscombinaties aan",
