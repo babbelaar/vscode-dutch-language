@@ -157,8 +157,8 @@
         "vs/editor/browser/controller/textAreaHandler": {
             "accessibilityModeOff": "Er is momenteel geen toegang tot de editor.",
             "accessibilityOffAriaLabel": "{0} Gebruik {1} om de modus voor schermlezers te activeren.",
-            "accessibilityOffAriaLabelNoKb": "{0} Gebruik {1} om de modus voor schermlezers te activeren, en voer het commando 'Schermlezer-modus in-/uitschakelen' uit, dat momenteel niet met het toetsenbord kan worden uitgevoerd.",
-            "accessibilityOffAriaLabelNoKbs": "{0} Wijs een toetscombinatie toe aan het commando 'Schermlezer-modus in-/uitschakelen' via de toetsenbordtoewijzing in de editor {1} en voer het uit.",
+            "accessibilityOffAriaLabelNoKb": "{0} Gebruik {1} om de modus voor schermlezers te activeren, en voer de opdracht 'Schermlezer-modus in-/uitschakelen' uit, dat momenteel niet met het toetsenbord kan worden uitgevoerd.",
+            "accessibilityOffAriaLabelNoKbs": "{0} Wijs een toetscombinatie toe aan de opdracht 'Schermlezer-modus in-/uitschakelen' via de toetsenbordtoewijzing in de editor {1} en voer het uit.",
             "editor": "Editor"
         },
         "vs/editor/browser/coreCommands": {
@@ -386,11 +386,11 @@
             "editor.colorDecoratorActivatedOn.click": "Toon de kleurkiezer bij een klik op de kleurdecorator.",
             "editor.colorDecoratorActivatedOn.clickAndHover": "Toon de kleurkiezer bij zowel klikken als zweven boven de kleurdecorator.",
             "editor.colorDecoratorActivatedOn.hover": "Toon de kleurkiezer bij het zweven boven de kleurdecorator.",
-            "editor.editor.gotoLocation.multipleDeclarations": "Bepaalt het gedrag van het commando \"Ga naar declaratie\" wanneer er meerdere doelposities zijn.",
-            "editor.editor.gotoLocation.multipleDefinitions": "Bepaalt het gedrag van het commando \"Ga naar definitie\" wanneer er meerdere doelposities zijn.",
-            "editor.editor.gotoLocation.multipleImplementations": "Bepaalt het gedrag van het commando \"Ga naar implementaties\" wanneer er meerdere doelposities zijn.",
-            "editor.editor.gotoLocation.multipleReferences": "Bepaalt het gedrag van het commando \"Ga naar referenties\" wanneer er meerdere doelposities zijn.",
-            "editor.editor.gotoLocation.multipleTypeDefinitions": "Bepaalt het gedrag van het commando \"Ga naar typedefinitie\" wanneer er meerdere doelposities zijn.",
+            "editor.editor.gotoLocation.multipleDeclarations": "Bepaalt het gedrag van de opdracht \"Ga naar declaratie\" wanneer er meerdere doelposities zijn.",
+            "editor.editor.gotoLocation.multipleDefinitions": "Bepaalt het gedrag van de opdracht \"Ga naar definitie\" wanneer er meerdere doelposities zijn.",
+            "editor.editor.gotoLocation.multipleImplementations": "Bepaalt het gedrag van de opdracht \"Ga naar implementaties\" wanneer er meerdere doelposities zijn.",
+            "editor.editor.gotoLocation.multipleReferences": "Bepaalt het gedrag van de opdracht \"Ga naar referenties\" wanneer er meerdere doelposities zijn.",
+            "editor.editor.gotoLocation.multipleTypeDefinitions": "Bepaalt het gedrag van de opdracht \"Ga naar typedefinitie\" wanneer er meerdere doelposities zijn.",
             "editor.find.autoFindInSelection.always": "\"Zoeken in selectie\" altijd automatisch inschakelen.",
             "editor.find.autoFindInSelection.multiline": "\"Zoeken in selectie\" automatisch inschakelen wanneer meerdere regels zijn geselecteerd.",
             "editor.find.autoFindInSelection.never": "\"Zoeken in selectie\" nooit automatisch inschakelen (standaard).",
@@ -1254,8 +1254,8 @@
             "hoverAccessibilityStatusBarActionWithoutKeybinding": "Het bevat een actie met de naam \"{0}\"."
         },
         "vs/editor/contrib/hover/browser/hoverAccessibleViews": {
-            "decreaseVerbosity": "\u2013 Het niveau van details voor de gefocuste hover-sectie kan worden verminderd met het commando \"Minder details weergeven\".",
-            "increaseVerbosity": "\u2013 Het niveau van details voor de gefocuste hover-sectie kan worden verhoogd met het commando \"Meer details weergeven\"."
+            "decreaseVerbosity": "\u2013 Het niveau van details voor de gefocuste hover-sectie kan worden verminderd met de opdracht \"Minder details weergeven\".",
+            "increaseVerbosity": "\u2013 Het niveau van details voor de gefocuste hover-sectie kan worden verhoogd met de opdracht \"Meer details weergeven\"."
         },
         "vs/editor/contrib/hover/browser/hoverActionIds": {
             "decreaseHoverVerbosityLevel": "Hover details verminderen",
@@ -1326,7 +1326,7 @@
             "selectTabWidth": "Selecteer tab-grootte voor het huidige bestand"
         },
         "vs/editor/contrib/inlayHints/browser/inlayHintsHover": {
-            "hint.cmd": "Voer commando uit",
+            "hint.cmd": "Voer opdracht uit",
             "hint.dbl": "Dubbelklik om in te voegen",
             "hint.def": "Ga naar definitie ({0})",
             "hint.defAndCommand": "Ga naar definitie ({0}), rechtsklik voor meer opties.",
@@ -1961,7 +1961,7 @@
             "status": "Geeft procesgebruik- en diagnose-informatie weer.",
             "stdinUnix": "Gebruik \"-\" om stdin te lezen (bijv. \"ps aux | grep code | {0} -\")",
             "stdinWindows": "Gebruik \"-\" om de uitvoer van een ander programma te lezen (bijv. \"echo Hello World | {0} -\")",
-            "subcommands": "Subcommando's",
+            "subcommands": "Subopdrachten",
             "telemetry": "Toont alle telemetrie-evenementen die door VS Code zijn verzameld.",
             "troubleshooting": "Probleemoplossing",
             "turn sync": "Synchronisatie in- of uitschakelen.",
@@ -2171,7 +2171,7 @@
         },
         "vs/platform/keybinding/common/abstractKeybindingService": {
             "first.chord": "({0}) is ingedrukt. Wacht op de tweede toets in de combinatie...",
-            "missing.chord": "De toetsencombinatie ({0}, {1}) is geen commando.",
+            "missing.chord": "De toetsencombinatie ({0}, {1}) is geen opdracht.",
             "next.chord": "({0}) is ingedrukt. Wacht op de tweede toets in de combinatie..."
         },
         "vs/platform/keyboardLayout/common/keyboardConfig": {
@@ -2213,7 +2213,7 @@
             "sticky scroll": "Bepaalt of vast scrollen in structuren is ingeschakeld.",
             "sticky scroll maximum items": "Bepaalt het aantal vaste items dat wordt weergegeven in de structuur als {0} is ingeschakeld.",
             "tree indent setting": "Bepaalt de inspringing van de structuur in pixels.",
-            "typeNavigationMode2": "Bepaalt de werking van typenavigatie in lijsten en structuren in de werkbank. Wanneer ingesteld op \"trigger\", begint de typenavigatie wanneer het commando \"list.triggerTypeNavigation\" wordt uitgevoerd.",
+            "typeNavigationMode2": "Bepaalt de werking van typenavigatie in lijsten en structuren in de werkbank. Wanneer ingesteld op \"trigger\", begint de typenavigatie wanneer de opdracht \"list.triggerTypeNavigation\" wordt uitgevoerd.",
             "workbenchConfigurationTitle": "Werkbank"
         },
         "vs/platform/log/common/log": {
@@ -2315,7 +2315,7 @@
             "quickInput": "Snelle Invoer"
         },
         "vs/platform/quickinput/browser/quickInputUtils": {
-            "executeCommand": "Klik om het commando \"{0}\" uit te voeren"
+            "executeCommand": "Klik om de opdracht \"{0}\" uit te voeren"
         },
         "vs/platform/quickinput/browser/quickPickPin": {
             "pinCommand": "Opdracht vastzetten",
@@ -3028,7 +3028,7 @@
             "accessibilityInformation.label": "De Aria-beschrijving van het statusbalk-item. Standaard wordt de tekst van het item gebruikt.",
             "accessibilityInformation.role": "De rol van het statusbalk-item, die bepaalt hoe een schermlezer ermee omgaat. Meer informatie over Aria-rollen vind je hier: https://w3c.github.io/aria/#widget_roles",
             "alignment": "De uitlijning van het statusbalk-item.",
-            "command": "Het uit te voeren commando wanneer op het statusbalk-item wordt geklikt.",
+            "command": "De uit te voeren opdracht wanneer op het statusbalk-item wordt geklikt.",
             "id": "De identificatie van het statusbalk-item. Dit moet uniek zijn binnen de extensie. Dezelfde waarde moet worden gebruikt bij het aanroepen van de \"vscode.window.createStatusBarItem(id, ...)\"-API.",
             "invalid": "Ongeldige bijdrage aan statusbalk-item.",
             "name": "De naam van het item, bijvoorbeeld \"Python-taalindicator\", \"Git-status\" etc. Probeer de naam kort te houden, maar beschrijvend genoeg zodat gebruikers begrijpen wat het statusbalk-item doet.",
@@ -3216,11 +3216,11 @@
             "removeLargeStorageEntriesPickerPlaceholder": "Selecteer grote items om uit de opslag te verwijderen.",
             "screencastMode.fontSize": "Beheert de lettergrootte (in pixels) van het toetsenbord in screencastmodus.",
             "screencastMode.keyboardOptions.description": "Opties om het toetsenbordoverlay aan te passen in screencastmodus.",
-            "screencastMode.keyboardOptions.showCommandGroups": "Toon commandogroepsnamen wanneer ook commando's worden weergegeven.",
-            "screencastMode.keyboardOptions.showCommands": "Toon commandonamen.",
+            "screencastMode.keyboardOptions.showCommandGroups": "Toon opdrachtgroepsnamen wanneer ook opdrachten worden weergegeven.",
+            "screencastMode.keyboardOptions.showCommands": "Toon opdrachtnamen.",
             "screencastMode.keyboardOptions.showKeybindings": "Toon toetscombinaties",
             "screencastMode.keyboardOptions.showKeys": "Toon onopgemaakte toetsen.",
-            "screencastMode.keyboardOptions.showSingleEditorCursorMoves": "Toon commando's voor het verplaatsen van de cursor in een enkele editor.",
+            "screencastMode.keyboardOptions.showSingleEditorCursorMoves": "Toon opdrachten voor het verplaatsen van de cursor in een enkele editor.",
             "screencastMode.keyboardOverlayTimeout": "Beheert de duur (in milliseconden) dat het toetsenbordoverlay in screencastmodus wordt weergegeven.",
             "screencastMode.location.verticalPosition": "Beheert de verticale offset van het screencastmodus-overlay vanaf de onderkant als een percentage van de werkbankhoogte.",
             "screencastMode.mouseIndicatorColor": "Beheert in screencastmodus de kleur van de muisaanwijzer in hexadecimaal formaat (#RGB, #RGBA, #RRGGBB of #RRGGBBAA).",
@@ -4226,7 +4226,7 @@
             "manage": "Beheren",
             "showCustomTitleBar": "Toon aangepaste titelbalk",
             "toggle.commandCenter": "Commandocentrum",
-            "toggle.commandCenterDescription": "Zichtbaarheid van het commandocentrum in de titelbalk omzetten",
+            "toggle.commandCenterDescription": "Zichtbaarheid van de opdrachtcentrum in de titelbalk omzetten",
             "toggle.customTitleBar": "Aangepaste titelbalk",
             "toggle.editorActions": "Editoracties",
             "toggle.hideCustomTitleBar": "Verberg aangepaste titelbalk",
@@ -4793,9 +4793,9 @@
         },
         "vs/workbench/electron-sandbox/actions/installActions": {
             "install": "Commando \"{0}\" in \"PATH\" installeren",
-            "shellCommand": "Shellcommando",
-            "successFrom": "Het shellcommando \"{0}\" is succesvol verwijderd uit \"PATH\".",
-            "successIn": "Het shellcommando \"{0}\" is succesvol ge\u00efnstalleerd in \"PATH\".",
+            "shellCommand": "Shellopdracht",
+            "successFrom": "Het shellopdracht \"{0}\" is succesvol verwijderd uit \"PATH\".",
+            "successIn": "Het shellopdracht \"{0}\" is succesvol ge\u00efnstalleerd in \"PATH\".",
             "uninstall": "Commando \"{0}\" uit \"PATH\" verwijderen"
         },
         "vs/workbench/electron-sandbox/actions/windowActions": {
@@ -5044,7 +5044,7 @@
             "audioCues.save.userGesture": "Speelt de audio-aanwijzing af wanneer een gebruiker een bestand expliciet opslaat.",
             "audioCues.taskCompleted": "Speelt een geluid af wanneer een taak is voltooid.",
             "audioCues.taskFailed": "Speelt een geluid af wanneer een taak mislukt (Exitcode is ongelijk aan nul).",
-            "audioCues.terminalCommandFailed": "Speelt een geluid af wanneer een terminalcommando mislukt (Exitcode is ongelijk aan nul).",
+            "audioCues.terminalCommandFailed": "Speelt een geluid af wanneer een terminalopdracht mislukt (Exitcode is ongelijk aan nul).",
             "audioCues.terminalQuickFix": "Speelt een geluid af wanneer snelle terminalprobleemoplossingen beschikbaar zijn.",
             "audioCues.volume": "Het volume van de audio-aanwijzingen in procenten (0-100)."
         },
@@ -5277,7 +5277,7 @@
             "chat.fileAttachmentWithRange": "Bijgevoegd bestand, {0}, regel {1} tot regel {2}",
             "chat.submitToSecondaryAgent": "Verzenden naar @{0}",
             "chatInput": "ChatInvoer",
-            "chatInput.accessibilityHelpNoKb": "Chatinvoer, voer hier code in en druk op Enter om deze uit te voeren. Gebruik de commando 'Help bij toegankelijkheid chat' voor meer informatie.",
+            "chatInput.accessibilityHelpNoKb": "Chatinvoer, voer hier code in en druk op Enter om deze uit te voeren. Gebruik de opdracht 'Help bij toegankelijkheid chat' voor meer informatie.",
             "notebook.moreExecuteActionsLabel": "Meer..."
         },
         "vs/workbench/contrib/chat/browser/chatListRenderer": {
@@ -5490,7 +5490,7 @@
         "vs/workbench/contrib/codeEditor/browser/diffEditorAccessibilityHelp": {
             "msg1": "U bevindt zich in een diff-editor.",
             "msg2": "Bekijk de volgende{0} of vorige{1} diff in de diff-beoordelingsmodus die is geoptimaliseerd voor schermlezers.",
-            "msg3": "Voer het commando Diff-editor: Pagina wisselen{0} uit om te schakelen tussen de oorspronkelijke en gewijzigde editor.",
+            "msg3": "Voer de opdracht Diff-editor: Pagina wisselen{0} uit om te schakelen tussen de oorspronkelijke en gewijzigde editor.",
             "msg4": "Om te bepalen welke toegankelijkheidssignalen worden afgespeeld, kunnen de volgende instellingen worden geconfigureerd: {0}.",
             "msg5": "De instelling \"accessibility.verbosity.diffEditorActive\" bepaalt of er een aankondiging wordt gedaan wanneer de diff-editor actief wordt."
         },
@@ -6388,7 +6388,7 @@
             "...": "..."
         },
         "vs/workbench/contrib/debug/browser/statusbarColorProvider": {
-            "commandCenter-activeBackground": "Achtergrondkleur van het commandocentrum tijdens het debuggen van een programma",
+            "commandCenter-activeBackground": "Achtergrondkleur van de opdrachtcentrum tijdens het debuggen van een programma",
             "statusBarDebuggingBackground": "Achtergrondkleur van de statusbalk tijdens het debuggen van een programma. De statusbalk wordt onderaan het venster weergegeven.",
             "statusBarDebuggingBorder": "Randkleur van de statusbalk om de randbalk en editor te scheiden tijdens het debuggen. De statusbalk wordt onderaan het venster weergegeven.",
             "statusBarDebuggingForeground": "Voorgrondkleur van de statusbalk tijdens het debuggen van een programma. De statusbalk wordt onderaan het venster weergegeven."
@@ -6518,10 +6518,10 @@
             "debugger name": "Naam",
             "debugger type": "Type",
             "debuggers": "Debuggers",
-            "presentation": "Presentatieopties om deze configuratie in de vervolgkeuzelijst van de debugconfiguratie en in de commandopalette weer te geven.",
-            "presentation.group": "Groep waarbij deze configuratie hoort. Wordt gebruikt om te groeperen en te sorteren in de configuratie-vervolgkeuzelijst en commandopalette.",
-            "presentation.hidden": "Regelt of deze configuratie moet worden weergegeven in de configuratie-vervolgkeuzelijst en de commandopalette.",
-            "presentation.order": "Volgorde van deze configuratie binnen een groep. Wordt gebruikt om te groeperen en te sorteren in de configuratie-vervolgkeuzelijst en commandopalette.",
+            "presentation": "Presentatieopties om deze configuratie in de vervolgkeuzelijst van de debugconfiguratie en in de opdrachtpalet weer te geven.",
+            "presentation.group": "Groep waarbij deze configuratie hoort. Wordt gebruikt om te groeperen en te sorteren in de configuratie-vervolgkeuzelijst en opdrachtpalet.",
+            "presentation.hidden": "Regelt of deze configuratie moet worden weergegeven in de configuratie-vervolgkeuzelijst en de opdrachtpalet.",
+            "presentation.order": "Volgorde van deze configuratie binnen een groep. Wordt gebruikt om te groeperen en te sorteren in de configuratie-vervolgkeuzelijst en opdrachtpalet.",
             "useUniqueNames": "Gebruik unieke configuratienamen.",
             "vscode.extension.contributes.breakpoints": "Levert breakpoints op.",
             "vscode.extension.contributes.breakpoints.language": "Maakt breakpoints mogelijk voor deze taal.",
@@ -8986,21 +8986,21 @@
             "showFoldingControls.never": "Nooit de inklapbesturingselementen weergeven en de grootte van de margeband verkleinen."
         },
         "vs/workbench/contrib/notebook/browser/notebookAccessibilityHelp": {
-            "notebook.cell.edit": "Het commando 'Cel bewerken'{0} verplaatst de focus naar de celingang.",
-            "notebook.cell.executeAndFocusContainer": "Met het commando 'Cel uitvoeren'{0} wordt de cel uitgevoerd die momenteel de focus heeft.",
-            "notebook.cell.focusInOutput": "Het commando 'Focus in uitvoer'{0} stelt de focus in de uitvoer van de cel in.",
-            "notebook.cell.insertCodeCellBelowAndFocusContainer": "Met de commando's 'Voeg een cel in boven{0}/onder{1}' worden nieuwe lege codecellen gemaakt.",
-            "notebook.cell.quitEdit": "Het commando 'Bewerken be\u00ebindigen'{0} stelt de focus in op de celcontainer. Mogelijk moet de standaardtoets (ESC) twee keer worden ingedrukt. Schakel eventueel de virtuele cursor uit als deze actief is.",
+            "notebook.cell.edit": "De opdracht 'Cel bewerken'{0} verplaatst de focus naar de celingang.",
+            "notebook.cell.executeAndFocusContainer": "Met de opdracht 'Cel uitvoeren'{0} wordt de cel uitgevoerd die momenteel de focus heeft.",
+            "notebook.cell.focusInOutput": "De opdracht 'Focus in uitvoer'{0} stelt de focus in de uitvoer van de cel in.",
+            "notebook.cell.insertCodeCellBelowAndFocusContainer": "Met de opdrachten 'Voeg een cel in boven{0}/onder{1}' worden nieuwe lege codecellen gemaakt.",
+            "notebook.cell.quitEdit": "De opdracht 'Bewerken be\u00ebindigen'{0} stelt de focus in op de celcontainer. Mogelijk moet de standaardtoets (ESC) twee keer worden ingedrukt. Schakel eventueel de virtuele cursor uit als deze actief is.",
             "notebook.cellNavigation": "De pijlen omhoog en omlaag verplaatsen ook de focus tussen de cellen terwijl de focus op de externe celcontainer ligt.",
-            "notebook.changeCellType": "De commando's 'Wijzig cel naar code'/'Wijzig naar Markdown' worden gebruikt om tussen celtypes te wisselen.",
-            "notebook.focusNextEditor": "Het commando 'Focus op volgende ceditor'{0} verplaatst de focus naar de editor van de volgende cel.",
-            "notebook.focusPreviousEditor": "Met het commando 'Focus op vorige ceditor'{0} wordt de focus verplaatst naar de editor van de vorige cel.",
+            "notebook.changeCellType": "De opdrachten 'Wijzig cel naar code'/'Wijzig naar Markdown' worden gebruikt om tussen celtypes te wisselen.",
+            "notebook.focusNextEditor": "De opdracht 'Focus op volgende ceditor'{0} verplaatst de focus naar de editor van de volgende cel.",
+            "notebook.focusPreviousEditor": "Met de opdracht 'Focus op vorige ceditor'{0} wordt de focus verplaatst naar de editor van de vorige cel.",
             "notebook.overview": "De notitieboekweergave is een verzameling van code- en Markdowncellen. Codecellen kunnen worden uitgevoerd en produceren een uitvoer direct onder de cel."
         },
         "vs/workbench/contrib/notebook/browser/notebookAccessibilityProvider": {
             "notebookTreeAriaLabel": "Notitieboek",
             "notebookTreeAriaLabelHelp": "Notitieboek\r\n: Gebruik {0} voor toegankelijkheidshulp",
-            "notebookTreeAriaLabelHelpNoKb": "Notitieboek\r\n: Voer het commando 'Open toegankelijkheidshulp' uit voor meer informatie"
+            "notebookTreeAriaLabelHelpNoKb": "Notitieboek\r\n: Voer de opdracht 'Open toegankelijkheidshulp' uit voor meer informatie"
         },
         "vs/workbench/contrib/notebook/browser/notebookEditor": {
             "fail.noEditor": "De resource met het notitieboek-editortype '{0}' kan niet worden geopend. Controleer of de juiste extensie is ge\u00efnstalleerd en geactiveerd.",
@@ -9620,20 +9620,20 @@
             "commandWithCategory": "{0}: {1}",
             "configure keybinding": "Sneltoets configureren",
             "confirmClearDetail": "Deze actie kan niet ongedaan worden gemaakt.",
-            "confirmClearMessage": "Wil je de geschiedenis van recent gebruikte commando's wissen?",
-            "noCommandResults": "Geen overeenkomende commando's.",
-            "showTriggerActions": "Alle commando's weergeven"
+            "confirmClearMessage": "Wil je de geschiedenis van recent gebruikte opdrachten wissen?",
+            "noCommandResults": "Geen overeenkomende opdrachten.",
+            "showTriggerActions": "Alle opdrachten weergeven"
         },
         "vs/workbench/contrib/quickaccess/browser/quickAccess.contribution": {
-            "commandPalette": "Commando palet...",
+            "commandPalette": "Opdrachtpalet...",
             "commandsQuickAccess": "Commando's weergeven en uitvoeren",
-            "commandsQuickAccessPlaceholder": "Geef de naam in van een commando dat moet worden uitgevoerd.",
+            "commandsQuickAccessPlaceholder": "Geef de naam in van een opdracht dat moet worden uitgevoerd.",
             "helpQuickAccess": "Alle providers voor snelle toegang weergeven",
             "helpQuickAccessPlaceholder": "Typ {0} om hulp te krijgen over acties die u van hieruit kunt uitvoeren.",
-            "miCommandPalette": "&&Commando palet...",
+            "miCommandPalette": "&&Opdrachtpalet...",
             "miGotoLine": "Ga naar &&Regel/Kolom...",
             "miOpenView": "&&Beeld openen...",
-            "miShowAllCommands": "Alle commando's weergeven",
+            "miShowAllCommands": "Alle opdrachten weergeven",
             "more": "Meer",
             "viewQuickAccess": "Beeld openen",
             "viewQuickAccessPlaceholder": "Geef de naam in van een weergave, outputkanaal of terminal die moet worden geopend."
@@ -9867,7 +9867,7 @@
             "action.showExtension": "Extensie tonen",
             "enable": "&&Inschakelen",
             "initialize.progress.title": "[Remote-tunnel wordt gezocht] (Commando: {0})",
-            "manage.placeholder": "Kies een commando dat moet worden uitgevoerd.",
+            "manage.placeholder": "Kies een opdracht dat moet worden uitgevoerd.",
             "manage.showLog": "Logboek tonen",
             "manage.title.attached": "Remote-tunneltoegang voor {0} geactiveerd (extern gestart)",
             "manage.title.off": "Remote-tunneltoegang niet geactiveerd",
@@ -10754,13 +10754,13 @@
         },
         "vs/workbench/contrib/tasks/common/jsonSchema_v1": {
             "JsonSchema._runner": "De Runner is verouderd. Gebruik de offici\u00eble Runde-eigenschap.",
-            "JsonSchema.linux": "Linux-specifieke commandoconfiguratie",
-            "JsonSchema.mac": "Mac-specifieke commandoconfiguratie",
+            "JsonSchema.linux": "Linux-specifieke opdrachtconfiguratie",
+            "JsonSchema.mac": "Mac-specifieke opdrachtconfiguratie",
             "JsonSchema.runner": "Definieert of de taak als proces wordt uitgevoerd en de uitvoer wordt weergegeven in het uitvoerpaneel of binnen de terminal.",
-            "JsonSchema.shell": "Geeft aan of het commando een shell-opdracht is of een extern programma. Als er geen specificatie is, wordt de standaardwaarde FALSE gebruikt.",
+            "JsonSchema.shell": "Geeft aan of de opdracht een shell-opdracht is of een extern programma. Als er geen specificatie is, wordt de standaardwaarde FALSE gebruikt.",
             "JsonSchema.version": "De versienummer van de configuratie",
             "JsonSchema.version.deprecated": "Taakversie 0.1.0 is verouderd. Gebruik versie 2.0.0.",
-            "JsonSchema.windows": "Windows-specifieke commandoconfiguratie"
+            "JsonSchema.windows": "Windows-specifieke opdrachtconfiguratie"
         },
         "vs/workbench/contrib/tasks/common/jsonSchema_v2": {
             "JsonSchema.args.quotedString.value": "De werkelijke argumentwaarde",
@@ -10956,7 +10956,7 @@
             "ConfigurationParser.noTypeDefinition": "Fout: er is geen geregistreerd taaktype \"{0}\". Heeft u verzuimd een extensie te installeren die een bijbehorende taakaanbieder biedt?",
             "ConfigurationParser.notCustom": "Fout: taken zijn niet gedeclareerd als aangepaste taak. De configuratie wordt genegeerd.\r\n{0}\r\n",
             "ConfigurationParser.unknownMatcherKind": "Waarschuwing: de gedefinieerde probleemmatcher is onbekend. Ondersteunde typen: string | ProblemMatcher | Array<string | ProblemMatcher>.\r\n{0}\r\n",
-            "TaskParse.noOsSpecificGlobalTasks": "Taakversie 2.0.0 ondersteunt geen algemene op systeem gebaseerde taken. Voer een conversie uit naar een taak met een op systeem gebaseerd commando. Getroffen taken:\r\n{0}",
+            "TaskParse.noOsSpecificGlobalTasks": "Taakversie 2.0.0 ondersteunt geen algemene op systeem gebaseerde taken. Voer een conversie uit naar een taak met een op systeem gebaseerd opdracht. Getroffen taken:\r\n{0}",
             "taskConfiguration.noCommand": "Fout: de taak \"{0}\" definieert geen opdracht. De taak wordt genegeerd. Gerelateerde definitie:\r\n{1}",
             "taskConfiguration.noCommandOrDependsOn": "Fout: de taak \"{0}\" geeft geen opdracht of dependsOn-eigenschap op. De taak wordt genegeerd. Gerelateerde definitie:\r\n{1}",
             "taskConfiguration.providerUnavailable": "Waarschuwing: {0} taken zijn niet beschikbaar in de huidige omgeving.\r\n"
@@ -10974,8 +10974,8 @@
             "newTerminalIcon": "Symbool om een nieuwe terminalinstantie aan te maken.",
             "renameTerminalIcon": "Symbool om de naam van een terminal snelmenu te wijzigen.",
             "terminalCommandHistoryFuzzySearch": "Symbool om over te schakelen naar fuzzy-zoeken in de opdrachtgeschiedenis.",
-            "terminalCommandHistoryOutput": "Symbool om de uitvoer van een terminalcommando te bekijken.",
-            "terminalCommandHistoryRemove": "Symbool om een terminalcommando uit de opdrachtgeschiedenis te verwijderen.",
+            "terminalCommandHistoryOutput": "Symbool om de uitvoer van een terminalopdracht te bekijken.",
+            "terminalCommandHistoryRemove": "Symbool om een terminalopdracht uit de opdrachtgeschiedenis te verwijderen.",
             "terminalDecorationError": "Symbool voor de decoratie van een terminalopdracht waarbij een fout is opgetreden.",
             "terminalDecorationIncomplete": "Symbool voor de decoratie van een terminalopdracht die onvolledig was.",
             "terminalDecorationMark": "Symbool voor een terminaldecoratiemerk.",
@@ -11196,7 +11196,7 @@
             "terminal.integrated.autoReplies": "Een groep berichten waarop automatisch in de terminal wordt gereageerd als ze verschijnen. Als het bericht specifiek genoeg is, kan dit helpen bij het automatiseren van veelvoorkomende antwoorden.",
             "terminal.integrated.autoReplies.reply": "Het antwoord dat naar het proces wordt gestuurd.",
             "terminal.integrated.bellDuration": "Het aantal milliseconden waarin de bel binnen een terminaltabblad wordt weergegeven als deze wordt geactiveerd.",
-            "terminal.integrated.commandsToSkipShell": "Een groep commando-ID's waarvan de sneltoetsen niet naar de shell worden gestuurd, maar altijd door VS Code worden verwerkt. Dit werkt op dezelfde manier als in een terminal zonder focus.",
+            "terminal.integrated.commandsToSkipShell": "Een groep opdracht-ID's waarvan de sneltoetsen niet naar de shell worden gestuurd, maar altijd door VS Code worden verwerkt. Dit werkt op dezelfde manier als in een terminal zonder focus.",
             "terminal.integrated.confirmOnExit": "Beheer of er een bevestiging moet worden weergegeven bij het afsluiten van een venster als er actieve terminalsessies zijn.",
             "terminal.integrated.confirmOnKill": "Beheer of terminalafsluitingen moeten worden bevestigd als ze onderliggende processen hebben.",
             "terminal.integrated.copyOnSelection": "Beheert of geselecteerde tekst in de terminal naar het klembord wordt gekopieerd.",
@@ -11212,7 +11212,7 @@
             "terminal.integrated.wordSeparators": "Een reeks tekens die als woordscheidingstekens moeten worden beschouwd."
         },
         "vs/workbench/contrib/terminal/common/terminalContextKey": {
-            "inTerminalRunCommandPickerContextKey": "Geeft aan of de commandopicker voor terminaluitvoering momenteel geopend is.",
+            "inTerminalRunCommandPickerContextKey": "Geeft aan of de opdrachtpicker voor terminaluitvoering momenteel geopend is.",
             "isSplitTerminalContextKey": "Geeft aan of de terminal van het gefocuste tabblad een gesplitste terminal is.",
             "terminalAltBufferActive": "Geeft aan of de alternatieve buffer van de terminal actief is.",
             "terminalCountContextKey": "Het huidige aantal terminals.",
@@ -11251,8 +11251,8 @@
             "workbench.action.terminal.newWithCwd": "Nieuwe terminal maken die in een aangepaste werkmap wordt gestart",
             "workbench.action.terminal.rename": "Hernoemen...",
             "workbench.action.terminal.renameWithArg": "Huidige actieve terminal hernoemen",
-            "workbench.action.terminal.scrollToNextCommand": "Naar volgend commando scrollen",
-            "workbench.action.terminal.scrollToPreviousCommand": "Naar vorig commando scrollen",
+            "workbench.action.terminal.scrollToNextCommand": "Naar volgend opdracht scrollen",
+            "workbench.action.terminal.scrollToPreviousCommand": "Naar vorig opdracht scrollen",
             "workbench.action.terminal.sendSequence": "Aangepaste sequentie naar terminal sturen",
             "workbench.action.terminal.sizeToContentWidthInstance": "Grootte aanpassen aan inhoudsbreedte"
         },
@@ -11260,8 +11260,8 @@
             "workbench.action.terminal.newLocal": "Nieuwe ge\u00efntegreerde terminal maken (lokaal)"
         },
         "vs/workbench/contrib/terminalContrib/accessibility/browser/terminal.accessibility.contribution": {
-            "workbench.action.terminal.accessibleBufferGoToNextCommand": "Toegankelijke buffer: volgend commando",
-            "workbench.action.terminal.accessibleBufferGoToPreviousCommand": "Toegankelijke buffer: vorig commando",
+            "workbench.action.terminal.accessibleBufferGoToNextCommand": "Toegankelijke buffer: volgend opdracht",
+            "workbench.action.terminal.accessibleBufferGoToPreviousCommand": "Toegankelijke buffer: vorig opdracht",
             "workbench.action.terminal.focusAccessibleBuffer": "Focus op toegankelijke terminalweergave",
             "workbench.action.terminal.scrollToBottomAccessibleView": "Naar onderkant van 'Toegankelijke weergave' scrollen",
             "workbench.action.terminal.scrollToTopAccessibleView": "Naar bovenkant van 'Toegankelijke weergave' scrollen"
@@ -11271,8 +11271,8 @@
             "focusAccessibleTerminalView": "Met de opdracht 'Focus op toegankelijke terminalweergave'<toetscombinatie:{0}> kunnen schermleessoftware terminalinhoud lezen.",
             "focusAfterRun": "Configureer met '{0}' welk element na het uitvoeren van de geselecteerde tekst in de terminal de focus krijgt.",
             "focusViewOnExecution": "Activeer 'terminal.integrated.accessibleViewFocusOnCommandExecution' om automatisch de focus op de toegankelijke terminalweergave te zetten wanneer een opdracht in de terminal wordt uitgevoerd.",
-            "goToNextCommand": "In toegankelijke weergave naar 'Volgend commando'<toetscombinatie:{0}> gaan",
-            "goToPreviousCommand": "In toegankelijke weergave naar 'Vorig commando'<toetscombinatie:{0}> gaan",
+            "goToNextCommand": "In toegankelijke weergave naar 'Volgend opdracht'<toetscombinatie:{0}> gaan",
+            "goToPreviousCommand": "In toegankelijke weergave naar 'Vorig opdracht'<toetscombinatie:{0}> gaan",
             "goToRecentDirectory": "Naar recent gebruikte map<toetscombinatie:{0}> gaan",
             "goToSymbol": "Naar symbool<toetsbinding:{0}> gaan",
             "newWithProfile": "De opdracht 'Nieuwe terminal maken (met profiel)'<toetscombinatie:{0}> maakt eenvoudig een terminal met een specifiek profiel.",
@@ -11349,10 +11349,10 @@
             "terminal.integrated.initialHint": "Bepaalt of het eerste terminalvenster zonder invoer een hint toont over beschikbare acties wanneer het de focus heeft."
         },
         "vs/workbench/contrib/terminalContrib/commandGuide/browser/terminal.commandGuide.contribution": {
-            "terminalCommandGuide.foreground": "De voorgrondkleur van de terminalcommandogids die links van een opdracht en de uitvoer ervan wordt weergegeven bij 'hover'."
+            "terminalCommandGuide.foreground": "De voorgrondkleur van de terminalopdrachtgids die links van een opdracht en de uitvoer ervan wordt weergegeven bij 'hover'."
         },
         "vs/workbench/contrib/terminalContrib/commandGuide/common/terminalCommandGuideConfiguration": {
-            "showCommandGuide": "Bepaalt of de commandogids wordt weergegeven wanneer wordt gehoverd over een opdracht in de terminal."
+            "showCommandGuide": "Bepaalt of de opdrachtgids wordt weergegeven wanneer wordt gehoverd over een opdracht in de terminal."
         },
         "vs/workbench/contrib/terminalContrib/developer/browser/terminal.developer.contribution": {
             "terminalDevMode": "Terminal development mode",
@@ -11407,7 +11407,7 @@
             "runOnEnter.ignore": "Suggesties negeren en de invoer rechtstreeks naar de shell verzenden zonder de operatie te voltooien. Dit is de standaardwaarde, zodat de suggestiewidget zo min mogelijk opdringerig is.",
             "runOnEnter.never": "Nooit uitvoeren bij het indrukken van de ENTER-toets.",
             "suggest.builtinCompletions": "Bestuurt welke ingebouwde automatische aanvullingen geactiveerd zijn. Deze instelling kan conflicten veroorzaken als aangepaste shells aanvullingen in het shellprofiel hebben geconfigureerd.",
-            "suggest.builtinCompletions.pwshCode": "Aangepaste PowerShell-argumentaanvullingen worden geregistreerd voor de 'code' en 'code-insiders'-CLIs van VS Code. Dit is momenteel zeer fundamenteel en suggereert altijd vlaggen en subcommando's zonder de context te controleren.",
+            "suggest.builtinCompletions.pwshCode": "Aangepaste PowerShell-argumentaanvullingen worden geregistreerd voor de 'code' en 'code-insiders'-CLIs van VS Code. Dit is momenteel zeer fundamenteel en suggereert altijd vlaggen en subopdrachten zonder de context te controleren.",
             "suggest.builtinCompletions.pwshGit": "Aangepaste PowerShell-argumentaanvullingen worden geregistreerd voor de 'git'-CLI.",
             "suggest.enabled": "Schakelt experimentele IntelliSense-terminalsuggesties in voor ondersteunde shells ({0}) wanneer {1} is ingesteld op {2}.\r\n\r\nAls de shellintegratie handmatig wordt ge\u00efnstalleerd, moet {3} worden ingesteld op {4} voordat het script voor de shellintegratie wordt opgeroepen.",
             "suggest.quickSuggestions": "Bestuurt of suggesties tijdens het typen automatisch moeten worden weergegeven. Zie ook de {0}-instelling die bestuurt of suggesties worden geactiveerd door speciale tekens.",
@@ -12176,7 +12176,7 @@
             "footer": "{0} verzamelt gebruiksgegevens. Lees onze {1} en ontdek hoe u {2}.",
             "gettingStarted.allStepsComplete": "Alle {0} stappen voltooid!",
             "gettingStarted.editingEvolved": "Geavanceerde bewerking",
-            "gettingStarted.keyboardTip": "Tip: Gebruik de sneltoets",
+            "gettingStarted.keyboardTip": "Tip: Gebruik de sneltoets ",
             "gettingStarted.someStepsComplete": "{0} van de {1} stappen voltooid",
             "imageShowing": "Afbeelding toont {0}",
             "new": "Nieuw",
@@ -12256,27 +12256,27 @@
             "welcome.displayName": "Startpagina"
         },
         "vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent": {
-            "browseLangExts": "Spracherweiterungen doorzoeken",
+            "browseLangExts": "Taalextensies doorzoeken",
             "browsePopular": "Populaire extensies doorzoeken",
             "browsePopularWeb": "Populaire Web-extensies doorzoeken",
             "cloneRepo": "Repo klonen",
-            "commandPalette": "Commandopot openen",
+            "commandPalette": "Opdrachtpalet openen",
             "enableSync": "Instellingen voor back-up en synchronisatie inschakelen",
             "enableTrust": "Vertrouwensstatus inschakelen",
             "getting-started-beginner-icon": "Pictogram voor de categorie 'Beginner' van de welkomstpagina",
             "getting-started-setup-icon": "Pictogram voor de categorie 'Opzet' van de welkomstpagina",
-            "gettingStarted.accessibilityHelp.description.interpolated": "Gebruik het toegankelijkheids-helpvenster om informatie over functies te krijgen en om de commando's/sneltoetsen te vinden om ze te bedienen.\r\n Met de focus in een editor, terminal, notebook, chatreactie, commentaar of debugconsole kan het relevante venster met het commando 'Toegankelijkheidshulp openen' worden geopend.\r\n{0}",
+            "gettingStarted.accessibilityHelp.description.interpolated": "Gebruik het toegankelijkheids-helpvenster om informatie over functies te krijgen en om de opdrachten/sneltoetsen te vinden om ze te bedienen.\r\n Met de focus in een editor, terminal, notebook, chatreactie, commentaar of debugconsole kan het relevante venster met de opdracht 'Toegankelijkheidshulp openen' worden geopend.\r\n{0}",
             "gettingStarted.accessibilityHelp.title": "Gebruik het toegankelijkheids-helpvenster om informatie over functies te krijgen.",
-            "gettingStarted.accessibilitySignals.description.interpolated": "Toegankelijkheidsgeluiden en aankondigingen worden rondom de werkbank afgespeeld voor verschillende gebeurtenissen.\r\n Deze kunnen worden ge\u00efdentificeerd en geconfigureerd met behulp van de commando's 'Geluidssignalen weergeven' en 'Aankondigingen weergeven'.\r\n{0}\r\n{1}",
+            "gettingStarted.accessibilitySignals.description.interpolated": "Toegankelijkheidsgeluiden en aankondigingen worden rondom de werkbank afgespeeld voor verschillende gebeurtenissen.\r\n Deze kunnen worden ge\u00efdentificeerd en geconfigureerd met behulp van de opdrachten 'Geluidssignalen weergeven' en 'Aankondigingen weergeven'.\r\n{0}\r\n{1}",
             "gettingStarted.accessibilitySignals.title": "Optimaliseer welke toegankelijkheidssignalen u via audio of braille wilt ontvangen.",
-            "gettingStarted.accessibleView.description.interpolated": "De toegankelijke weergave is beschikbaar voor terminal, hovers, meldingen, commentaren, notebookuitvoer, chatreacties, inline-aanvullingen en debug-console-uitvoer.\r\n Met de focus op een van deze functies kan het met het commando 'Toegankelijke weergave openen' worden geopend.\r\n{0}",
+            "gettingStarted.accessibleView.description.interpolated": "De toegankelijke weergave is beschikbaar voor terminal, hovers, meldingen, commentaren, notebookuitvoer, chatreacties, inline-aanvullingen en debug-console-uitvoer.\r\n Met de focus op een van deze functies kan het met de opdracht 'Toegankelijke weergave openen' worden geopend.\r\n{0}",
             "gettingStarted.accessibleView.title": "Gebruik de toegankelijke weergave om regel voor regel en karakter voor karakter de inhoud te controleren.",
             "gettingStarted.beginner.description": "Krijg een overzicht van de belangrijkste functies.",
             "gettingStarted.beginner.title": "Leer de basisprincipes",
-            "gettingStarted.codeFolding.description.interpolated": "Vouw of vouw een codegedeelte open met het commando 'Vouw wisselen'.\r\n{0}\r\n Vouw of vouw recursief met het commando 'Recursief vouwen wisselen'.\r\n{1}\r\n",
+            "gettingStarted.codeFolding.description.interpolated": "Vouw of vouw een codegedeelte open met de opdracht 'Vouw wisselen'.\r\n{0}\r\n Vouw of vouw recursief met de opdracht 'Recursief vouwen wisselen'.\r\n{1}\r\n",
             "gettingStarted.codeFolding.title": "Gebruik codevouwen om codeblokken te verminderen en je te concentreren op de code waarin je ge\u00efnteresseerd bent.",
             "gettingStarted.commandPalette.description.interpolated": "Voer opdrachten uit zonder de muis te gebruiken om een taak in VS Code uit te voeren.\r\n{0}",
-            "gettingStarted.commandPalette.title": "Verhoog de productiviteit met de commandopalette",
+            "gettingStarted.commandPalette.title": "Verhoog de productiviteit met de opdrachtpalet",
             "gettingStarted.debug.description.interpolated": "Versnel de bewerkings-, build-, test- en debuglus door een startconfiguratie in te stellen.\r\n{0}",
             "gettingStarted.debug.title": "Code in actie zien",
             "gettingStarted.extensions.description.interpolated": "Met extensies kunt u VS Code nog uitgebreider gebruiken. Deze vari\u00ebren van handige hacks voor het verhogen van de productiviteit tot extensies voor voorgeconfigureerde functies en volledig nieuwe functies.\r\n{0}",
@@ -12284,13 +12284,13 @@
             "gettingStarted.extensionsWeb.description.interpolated": "Extensies zijn versterkingen voor VS Code. Een groeiend aantal is beschikbaar op het web.\r\n{0}",
             "gettingStarted.findLanguageExts.description.interpolated": "Programmeer slimmer met syntaxhighlighting, code-aanvulling, linters en debugging. Veel talen zijn al ge\u00efntegreerd, maar er kunnen nog veel meer als extensies worden toegevoegd.\r\n{0}",
             "gettingStarted.findLanguageExts.title": "Uitgebreide ondersteuning voor alle talen",
-            "gettingStarted.goToSymbol.description.interpolated": "Het commando 'Ga naar symbool' is handig om tussen belangrijke landmarks in een document te navigeren.\r\n{0}",
+            "gettingStarted.goToSymbol.description.interpolated": "De opdracht 'Ga naar symbool' is handig om tussen belangrijke landmarks in een document te navigeren.\r\n{0}",
             "gettingStarted.goToSymbol.title": "Navigeren naar symbolen in een bestand",
-            "gettingStarted.hover.description.interpolated": "Terwijl de focus in de editor op een variabele of symbool ligt, kan erop worden gefocust door het commando 'Tonen' of 'Uitzoomen openen'.\r\n{0}",
+            "gettingStarted.hover.description.interpolated": "Terwijl de focus in de editor op een variabele of symbool ligt, kan erop worden gefocust door de opdracht 'Tonen' of 'Uitzoomen openen'.\r\n{0}",
             "gettingStarted.hover.title": "Toegang tot het tonen in de editor om meer informatie over een variabele of symbool te krijgen.",
             "gettingStarted.installGit.description.interpolated": "Installeer Git om wijzigingen in uw projecten bij te houden.\r\n{0}\r\n{1}Herlaad het venster{2} na installatie om de Git-setup te voltooien.",
             "gettingStarted.installGit.title": "Git installeren",
-            "gettingStarted.intellisense.description.interpolated": "IntelliSense-suggesties kunnen worden geopend met het IntelliSense-commando 'Trigger'.\r\n{0}\r\n IntelliSense-inlinesuggesties kunnen worden geactiveerd met 'Inline-suggesties triggeren'.\r\n{1}\r\n Tot de nuttige instellingen behoren editor.inlineCompletionsAccessibilityVerbose en editor.screenReaderAnnounceInlineSuggestion.",
+            "gettingStarted.intellisense.description.interpolated": "IntelliSense-suggesties kunnen worden geopend met het IntelliSense-opdracht 'Trigger'.\r\n{0}\r\n IntelliSense-inlinesuggesties kunnen worden geactiveerd met 'Inline-suggesties triggeren'.\r\n{1}\r\n Tot de nuttige instellingen behoren editor.inlineCompletionsAccessibilityVerbose en editor.screenReaderAnnounceInlineSuggestion.",
             "gettingStarted.intellisense.title": "Gebruik van IntelliSense om de codeereffici\u00ebntie te verbeteren",
             "gettingStarted.menuBar.description.interpolated": "Om ruimte te maken voor uw code, is de volledige menubalk beschikbaar in het vervolgkeuzemenu. Schakel de weergave om de toegang te versnellen.\r\n{0}",
             "gettingStarted.menuBar.title": "Precies de juiste hoeveelheid gebruikersinterface",
@@ -12326,7 +12326,7 @@
             "gettingStarted.setupScreenReader.title": "Aan de slag met VS Code via een schermlezer",
             "gettingStarted.setupWeb.description": "Pas uw editor aan, leer de basisprincipes en begin met coderen.",
             "gettingStarted.setupWeb.title": "Eerste stappen met VS Code voor het web",
-            "gettingStarted.shortcuts.description.interpolated": "Nadat u uw favoriete commando's hebt ontdekt, kunt u aangepaste sneltoetscombinaties maken voor directe toegang.\r\n{0}",
+            "gettingStarted.shortcuts.description.interpolated": "Nadat u uw favoriete opdrachten hebt ontdekt, kunt u aangepaste sneltoetscombinaties maken voor directe toegang.\r\n{0}",
             "gettingStarted.shortcuts.title": "Pas uw sneltoetscombinaties aan",
             "gettingStarted.tasks.description.interpolated": "Maak taken voor uw veelvoorkomende workflows en profiteer van de ingebouwde mogelijkheid om scripts uit te voeren en resultaten automatisch te controleren.\r\n{0}",
             "gettingStarted.tasks.title": "Automatiseer projecttaken",
@@ -12342,7 +12342,7 @@
             "gettingStarted.topLevelRemoteOpen.title": "Verbinden met...",
             "gettingStarted.topLevelShowWalkthroughs.description": "Toon een stapsgewijze handleiding voor de editor of een extensie",
             "gettingStarted.topLevelShowWalkthroughs.title": "Een stapsgewijze handleiding openen...",
-            "gettingStarted.verbositySettings.description.interpolated": "Voor functies rondom de werkbank zijn maatwerkinstellingen voor uitvoerigheid beschikbaar, zodat een gebruiker, zodra hij bekend is met een functie, aanwijzingen over het functioneren kan vermijden. Functies waarvoor een toegankelijkheidshulp-venster beschikbaar is, tonen bijv. hoe het venster wordt geopend, totdat de uitvoerigheid-instelling voor die functie is uitgeschakeld.\r\n Deze en andere toegankelijkheidsinstellingen kunnen worden geconfigureerd door het commando 'Toegankelijkheid-instellingen openen' uit te voeren.\r\n{0}",
+            "gettingStarted.verbositySettings.description.interpolated": "Voor functies rondom de werkbank zijn maatwerkinstellingen voor uitvoerigheid beschikbaar, zodat een gebruiker, zodra hij bekend is met een functie, aanwijzingen over het functioneren kan vermijden. Functies waarvoor een toegankelijkheidshulp-venster beschikbaar is, tonen bijv. hoe het venster wordt geopend, totdat de uitvoerigheid-instelling voor die functie is uitgeschakeld.\r\n Deze en andere toegankelijkheidsinstellingen kunnen worden geconfigureerd door de opdracht 'Toegankelijkheid-instellingen openen' uit te voeren.\r\n{0}",
             "gettingStarted.verbositySettings.title": "Uitvoerigheid van aria-labels regelen",
             "gettingStarted.videoTutorial.description.interpolated": "Bekijk de eerste in een reeks korte en praktische videotutorials over de belangrijkste VS Code-functies.\r\n{0}",
             "gettingStarted.videoTutorial.title": "Videotutorials bekijken",
@@ -12724,8 +12724,8 @@
             "errorInvalidFile": "Kan niet worden geschreven naar het bestand. Open het bestand om fouten/waarschuwingen in het bestand te corrigeren en probeer het opnieuw."
         },
         "vs/workbench/services/configurationResolver/browser/baseConfigurationResolverService": {
-            "commandVariable.noStringType": "De commando-variabele '{0}' kan niet worden vervangen omdat het commando geen resultaat van het type 'string' heeft geretourneerd.",
-            "inputVariable.command.noStringType": "De invoervariabele '{0}' kan niet worden vervangen omdat het commando '{1}' geen resultaat van het type 'string' heeft geretourneerd.",
+            "commandVariable.noStringType": "De opdracht-variabele '{0}' kan niet worden vervangen omdat de opdracht geen resultaat van het type 'string' heeft geretourneerd.",
+            "inputVariable.command.noStringType": "De invoervariabele '{0}' kan niet worden vervangen omdat de opdracht '{1}' geen resultaat van het type 'string' heeft geretourneerd.",
             "inputVariable.defaultInputValue": "(Standaard)",
             "inputVariable.missingAttribute": "De invoervariabele '{0}' is van het type '{1}' en moet '{2}' bevatten.",
             "inputVariable.noInputSection": "De variabele '{0}' moet worden gedefinieerd in een sectie '{1}' van de debug- of taakconfiguratie.",
@@ -12733,8 +12733,8 @@
             "inputVariable.unknownType": "De invoervariabele '{0}' kan alleen van het type 'promptString', 'pickString' of 'command' zijn."
         },
         "vs/workbench/services/configurationResolver/common/configurationResolverSchema": {
-            "JsonSchema.input.command.args": "Optionele argumenten die aan het commando worden doorgegeven.",
-            "JsonSchema.input.command.command": "Het commando dat moet worden uitgevoerd voor deze invoervariabele.",
+            "JsonSchema.input.command.args": "Optionele argumenten die aan de opdracht worden doorgegeven.",
+            "JsonSchema.input.command.command": "De opdracht dat moet worden uitgevoerd voor deze invoervariabele.",
             "JsonSchema.input.default": "De standaardwaarde voor de invoer.",
             "JsonSchema.input.description": "De beschrijving die wordt weergegeven wanneer de gebruiker wordt gevraagd om invoer.",
             "JsonSchema.input.id": "De invoer-ID wordt gebruikt om een invoer te koppelen aan een variabele in de vorm ${input:id}.",
@@ -12743,7 +12743,7 @@
             "JsonSchema.input.pickString.optionLabel": "Label voor de optie.",
             "JsonSchema.input.pickString.optionValue": "Waarde voor de optie.",
             "JsonSchema.input.type": "Het type gebruikersinvoerprompt dat moet worden gebruikt.",
-            "JsonSchema.input.type.command": "Het type 'command' voert een commando uit.",
+            "JsonSchema.input.type.command": "Het type 'command' voert een opdracht uit.",
             "JsonSchema.input.type.pickString": "Het type 'PickString' toont een keuzelijst.",
             "JsonSchema.input.type.promptString": "Het type 'PromptString' opent een invoerveld waarin de gebruiker iets moet invoeren.",
             "JsonSchema.inputs": "Gebruikersinvoer. Wordt gebruikt voor het defini\u00ebren van gebruikersinvoerprompts, bijvoorbeeld een vrij geformuleerde stringinvoer of een keuze uit meerdere opties."
@@ -12766,7 +12766,7 @@
             "missingConfigName": "De variabele '{0}' kan niet worden opgelost omdat er geen instellingsnaam is opgegeven.",
             "missingEnvVarName": "De variabele '{0}' kan niet worden opgelost omdat er geen omgevingsvariabelenaam is opgegeven.",
             "missingExtensionName": "De variabele {0} kan niet worden opgelost omdat er geen instellingsnaam is opgegeven.",
-            "noValueForCommand": "De variabele '{0}' kan niet worden opgelost omdat het commando geen waarde heeft."
+            "noValueForCommand": "De variabele '{0}' kan niet worden opgelost omdat de opdracht geen waarde heeft."
         },
         "vs/workbench/services/decorations/browser/decorationsService": {
             "bubbleTitle": "Bevat gemarkeerde items"
