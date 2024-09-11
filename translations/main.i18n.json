@@ -754,7 +754,7 @@
             "symbolHighlight": "Achtergrondkleur voor het markeren van symbolen, zoals 'Ga naar definitie' of 'Ga naar volgende/vorige'. De kleur mag niet ondoorzichtig zijn om de onderliggende decoraties niet te verbergen.",
             "symbolHighlightBorder": "Achtergrondkleur van de rand rond gemarkeerde symbolen.",
             "unnecessaryCodeBorder": "Randkleur van onnodige (niet gebruikte) broncode in de editor.",
-            "unnecessaryCodeOpacity": "Ondoorzichtigheid van onnodige (niet gebruikte) broncode in de editor. \"#000000c0\" maakt bijvoorbeeld de code zichtbaar met een ondoorzichtigheid van 75%. Gebruik voor contrastontwerpen de kleurstelling 'editorUnnecessaryCode.border' om onnodige code te onderstrepen in plaats van te vervagen."
+            "unnecessaryCodeOpacity": "Ondoorzichtigheid van onnodige (niet gebruikte) broncode in de editor. \"#000000c0\" maakt bijvoorbeeld de code zichtbaar met een ondoorzichtigheid van 75%. Gebruik voor contrastthema's de kleurstelling 'editorUnnecessaryCode.border' om onnodige code te onderstrepen in plaats van te vervagen."
         },
         "vs/editor/common/editorContextKeys": {
             "accessibleDiffViewerVisible": "Geeft aan of de toegankelijke diff-viewer zichtbaar is.",
@@ -5399,9 +5399,9 @@
         "vs/workbench/contrib/chat/common/tools/languageModelToolsContribution": {
             "canBeInvokedManually": "Geeft aan of dit gereedschap door de gebruiker via UX voor chat handmatig kan worden opgeroepen.",
             "condition": "Voorwaarde die waar moet zijn om dit gereedschap te activeren.",
-            "icon": "Een symbool dat dit gereedschap vertegenwoordigt. Ofwel een bestandspad, een object met bestandspaden voor donkere en lichte ontwerpen, of een symboolreferentie zoals \"\\$(zap)\"",
-            "icon.dark": "Symbioolpad waneer een donker ontwerp wordt gebruikt",
-            "icon.light": "Symboolpad wanneer een licht ontwerp wordt gebruikt",
+            "icon": "Een symbool dat dit gereedschap vertegenwoordigt. Ofwel een bestandspad, een object met bestandspaden voor donkere en lichte thema's, of een symboolreferentie zoals \"\\$(zap)\"",
+            "icon.dark": "Symbioolpad waneer een donker thema wordt gebruikt",
+            "icon.light": "Symboolpad wanneer een licht thema wordt gebruikt",
             "parametersSchema": "Een JSON-schema voor de parameters die door dit gereedschap worden geaccepteerd.",
             "toolDisplayName": "Een visueel leesbare naam voor dit gereedschap, gebruikt voor de beschrijving in de gebruikersinterface.",
             "toolId": "Een unieke ID voor dit gereedschap.",
@@ -6403,7 +6403,13 @@
             "collapse": "Alles samenvouwen"
         },
         "vs/workbench/contrib/debug/browser/welcomeView": {
-            "allDebuggersDisabled": "Alle debug-extensies zijn uitgeschakeld. Schakel een debug-extensie in of installeer een nieuwe via de Marketplace."
+            "allDebuggersDisabled": "Alle debug-extensies zijn gedeactiveerd. Activeer een debug-uitbreiding of installeer een nieuwe uit Marketplace.",
+            "customizeRunAndDebug": "Om 'Uitvoeren en Debuggen' aan te passen, [maak een launch.json-bestand](command:{0}).",
+            "customizeRunAndDebugOpenFolder": "Open een map om 'Uitvoeren en debuggen' aan te passen, [open een map](command:{0}) en maak een launch.json-bestand.",
+            "detectThenRunAndDebug": "Alle configuraties voor automatisch debuggen weergeven",
+            "openAFileWhichCanBeDebugged": "[Open een bestand](command:{0}) dat kan worden gedebugd of uitgevoerd.",
+            "run": "Uitvoeren",
+            "runAndDebugAction": "Uitvoeren en debuggen"
         },
         "vs/workbench/contrib/debug/common/abstractDebugAdapter": {
             "timeout": "Timeout na {0} ms voor \"{1}\""
@@ -11820,10 +11826,10 @@
             "browseProductIconThemes": "Extra productpictogramthema's bekijken...",
             "button.browse": "Thema's bekijken",
             "button.cancel": "Annuleren",
-            "button.keep": "Nieuw ontwerp behouden",
+            "button.keep": "Nieuw thema behouden",
             "button.revert": "Herstellen",
-            "button.tryTheme": "Nieuw ontwerp proberen",
-            "cannotToggle": "Kan niet schakelen tussen lichte en donkere ontwerpen als '{0}' is ingeschakeld in de instellingen.",
+            "button.tryTheme": "Nieuw thema proberen",
+            "cannotToggle": "Kan niet schakelen tussen lichte en donkere thema's als '{0}' is ingeschakeld in de instellingen.",
             "defaultProductIconThemeLabel": "Standaard",
             "fileIconThemeCategory": "Bestandspictogramthema's",
             "generateColorTheme.label": "Kleurthema genereren vanuit huidige instellingen",
@@ -11835,21 +11841,21 @@
             "installProductIconThemes": "Extra productpictogramthema's installeren...",
             "installing extensions": "Extensie {0} wordt ge\u00efnstalleerd...",
             "manage extension": "Extensie beheren",
-            "manageExtensionIcon": "Pictogram voor de actie 'Beheren' in de snelkiezer van de ontwerpselectie.",
-            "miSelectTheme": "&&Ontwerp",
-            "newThemeNotification": "Visual Studio Code wordt nu geleverd met een nieuw standaardontwerp '{0}'. Wilt u het proberen?",
+            "manageExtensionIcon": "Pictogram voor de actie 'Beheren' in de snelkiezer van de themaselectie.",
+            "miSelectTheme": "&&Thema",
+            "newThemeNotification": "Visual Studio Code wordt nu geleverd met een nieuw standaardthema '{0}'. Wilt u het proberen?",
             "noIconThemeDesc": "Bestandspictogrammen uitschakelen",
             "noIconThemeLabel": "GEEN",
             "productIconThemeCategory": "Productpictogramthema's",
-            "search.error": "Fout bij zoeken naar ontwerpen: {0}",
+            "search.error": "Fout bij zoeken naar thema's: {0}",
             "selectIconTheme.label": "Bestandspictogramthema selecteren",
             "selectProductIconTheme.label": "Productpictogramthema selecteren",
             "selectTheme.label": "Kleurthema selecteren",
-            "themeUpdatedNotification": "Visual Studio Code wordt nu geleverd met een nieuw standaardontwerp '{0}'. U kunt teruggaan naar het oude ontwerp of een van de vele andere beschikbare kleurthema's proberen.",
-            "themes": "Ontwerpen",
+            "themeUpdatedNotification": "Visual Studio Code wordt nu geleverd met een nieuw standaardthema '{0}'. U kunt teruggaan naar het oude thema of een van de vele andere beschikbare kleurthema's proberen.",
+            "themes": "Thema's",
             "themes.category.dark": "Donkere thema's",
-            "themes.category.hc": "Hoog contrast thema's",
-            "themes.category.light": "Lichte ontwerpen",
+            "themes.category.hc": "Hoogcontrastthema's",
+            "themes.category.light": "Lichte thema's",
             "themes.configure.switchingDisabled": "Systeemkleurmodusdetectie uitgeschakeld. Klik om de configuratie te starten.",
             "themes.configure.switchingEnabled": "Systeemkleurmodusdetectie ingeschakeld. Klik om de configuratie te starten.",
             "themes.selectIconTheme": "Bestandspictogramthema selecteren (Pijl omhoog/omlaag voor voorbeeld)",
@@ -11862,7 +11868,7 @@
             "themes.selectTheme.default": "Kleurthema selecteren (systeemkleurmodusdetectie uitgeschakeld)",
             "themes.selectTheme.lightHC": "Kleurthema voor lichte hoge-contrastmodus selecteren",
             "themes.selectTheme.lightScheme": "Kleurthema voor lichte systeemmodus selecteren",
-            "toggleLightDarkThemes.label": "Tussen lichte/donkere ontwerpen schakelen"
+            "toggleLightDarkThemes.label": "Tussen lichte/donkere thema's schakelen"
         },
         "vs/workbench/contrib/timeline/browser/timeline.contribution": {
             "files.openTimeline": "Tijdlijn openen",
@@ -12305,7 +12311,7 @@
             "gettingStarted.openFolder.title": "Map openen...",
             "gettingStarted.openMac.description": "Hiermee opent u een bestand of map om aan het werk te gaan.",
             "gettingStarted.openMac.title": "Openen...",
-            "gettingStarted.pickColor.description.interpolated": "Het juiste ontwerp helpt u zich te concentreren op uw code, is prettig voor de ogen en maakt het gewoon leuker.\r\n{0}",
+            "gettingStarted.pickColor.description.interpolated": "Het juiste thema helpt u zich te concentreren op uw code, is prettig voor de ogen en maakt het gewoon leuker.\r\n{0}",
             "gettingStarted.pickColor.title": "Thema kiezen",
             "gettingStarted.quickOpen.description.interpolated": "Met een toetsaanslag kunt u direct tussen bestanden schakelen. Tip: Open meerdere bestanden door op de RECHTERPIJL-toets te drukken.\r\n{0}",
             "gettingStarted.quickOpen.title": "Snel navigeren tussen uw bestanden",
@@ -12386,7 +12392,7 @@
             "HighContrastLight": "Licht hoog contrast",
             "dark": "Donker modern",
             "light": "Licht modern",
-            "seeMore": "Meer ontwerpen weergeven..."
+            "seeMore": "Meer thema's weergeven..."
         },
         "vs/workbench/contrib/welcomeOverlay/browser/welcomeOverlay": {
             "hideWelcomeOverlay": "Overzicht van interfaces verbergen",
@@ -13200,8 +13206,8 @@
             "vscode.extension.contributes.languages.filenames": "Bestandsnamen die aan de taal zijn gekoppeld.",
             "vscode.extension.contributes.languages.firstLine": "Een reguliere expressie die overeenkomt met de eerste regel van een bestand in de taal.",
             "vscode.extension.contributes.languages.icon": "Een symbool dat moet worden gebruikt als bestandsymbool wanneer er geen specifiek symbooldesign beschikbaar is voor de taal.",
-            "vscode.extension.contributes.languages.icon.dark": "Symboolpad voor donker ontwerp",
-            "vscode.extension.contributes.languages.icon.light": "Symboolpad voor licht ontwerp",
+            "vscode.extension.contributes.languages.icon.dark": "Symboolpad voor donker thema",
+            "vscode.extension.contributes.languages.icon.light": "Symboolpad voor licht thema",
             "vscode.extension.contributes.languages.id": "ID van de taal.",
             "vscode.extension.contributes.languages.mimetypes": "MIME-typen die aan de taal zijn gekoppeld."
         },
@@ -13395,7 +13401,7 @@
         },
         "vs/workbench/services/themes/browser/fileIconThemeData": {
             "error.cannotparseicontheme": "Problemen bij het analyseren van het bestandsymboolthema: {0}",
-            "error.invalidformat": "Ongeldig formaat voor bestandspictogram-ontwerpbestand: Object verwacht."
+            "error.invalidformat": "Ongeldig formaat voor bestandspictogram-themabestand: Object verwacht."
         },
         "vs/workbench/services/themes/browser/productIconThemeData": {
             "defaultTheme": "Standaard",
@@ -13406,8 +13412,8 @@
             "error.fontWeight": "Ongeldige lettertypegewicht in lettertype '{0}'. De instelling wordt genegeerd.",
             "error.icon.font": "De pictogramdefinitie '{0}' wordt overgeslagen. Onbekend lettertype.",
             "error.icon.fontCharacter": "De pictogramdefinitie '{0}' wordt overgeslagen. Onbekende lettertypekarakter.",
-            "error.invalidformat": "Ongeldig formaat voor productpictogram-ontwerpbestand: Object verwacht.",
-            "error.missingProperties": "Ongeldig formaat voor productpictogramontwerpbestand: Moet iconDefinitions en lettertypen bevatten.",
+            "error.invalidformat": "Ongeldig formaat voor productpictogram-themabestand: Object verwacht.",
+            "error.missingProperties": "Ongeldig formaat voor productpictogram-themabestand: Moet iconDefinitions en lettertypen bevatten.",
             "error.noFontSrc": "Geen geldige lettertypebron gevonden in lettertype '{0}'. Lettertype-definitie wordt genegeerd.",
             "error.parseicondefs": "Problemen bij het verwerken van de productpictogramdefinities in '{0}':\r\n{1}"
         },
@@ -13417,12 +13423,12 @@
         "vs/workbench/services/themes/common/colorExtensionPoint": {
             "colors": "Kleuren",
             "contributes.color": "Voegt bruikbare kleuren toe die in de extensie zijn gedefinieerd",
-            "contributes.color.description": "De beschrijving van de ontwerpkleur",
+            "contributes.color.description": "De beschrijving van de themapkleur",
             "contributes.color.id": "De identificatie van de bruikbare kleur",
             "contributes.color.id.format": "Identificatoren mogen alleen letters, cijfers en punten bevatten en mogen niet beginnen met een punt.",
             "contributes.defaults.dark": "De standaardkleur voor donkere thema's. Ofwel een kleur als hex-code (#RRGGBB[AA]) of de identificatie van een bruikbare kleur die een standaardwaarde biedt.",
-            "contributes.defaults.highContrast": "De standaardkleur voor donkere hoge-contrastontwerpen. Ofwel een hexadecimale kleurwaarde (#RRGGBB[AA]) of de identificatie van een ontwerpkleur die de standaardwaarde levert. Als er geen waarde is opgegeven, wordt de kleur 'donker' standaard gebruikt voor donkere hoge-contrastontwerpen.",
-            "contributes.defaults.highContrastLight": "De standaardkleur voor lichte hoge-contrastontwerpen. Ofwel een hexadecimale kleurwaarde (#RRGGBB[AA]) of de identificatie van een ontwerpkleur die de standaardwaarde levert. Als er geen waarde is opgegeven, wordt de kleur 'licht' standaard gebruikt voor lichte hoge-contrastontwerpen.",
+            "contributes.defaults.highContrast": "De standaardkleur voor donkere hoge-contrastthema's. Ofwel een hexadecimale kleurwaarde (#RRGGBB[AA]) of de identificatie van een themakleur die de standaardwaarde levert. Als er geen waarde is opgegeven, wordt de kleur 'donker' standaard gebruikt voor donkere hoge-contrastthema's.",
+            "contributes.defaults.highContrastLight": "De standaardkleur voor lichte hoge-contrastthema's. Ofwel een hexadecimale kleurwaarde (#RRGGBB[AA]) of de identificatie van een themakleur die de standaardwaarde levert. Als er geen waarde is opgegeven, wordt de kleur 'licht' standaard gebruikt voor lichte hoge-contrastthema's.",
             "contributes.defaults.light": "De standaardkleur voor lichte thema's. Ofwel een kleur als hex-code (#RRGGBB[AA]) of de identificatie van een bruikbare kleur die een standaardwaarde biedt.",
             "defaultDark": "Standaard, donker",
             "defaultHC": "Standaard, hoog contrast",
@@ -13439,14 +13445,14 @@
             "invalid.id.format": "'configuration.colors.id' mag alleen letters, cijfers en punten bevatten en mag niet beginnen met een punt."
         },
         "vs/workbench/services/themes/common/colorThemeData": {
-            "error.cannotload": "Problemen bij het laden van het tmTheme-ontwerpbestand {0}: {1}",
-            "error.cannotparse": "Problemen bij het analyseren van het tmTheme-ontwerpbestand: {0}",
-            "error.cannotparsejson": "Problemen bij het analyseren van het JSON-ontwerpbestand: {0}",
-            "error.invalidformat": "Ongeldig formaat voor JSON-ontwerpbestand: object verwacht.",
-            "error.invalidformat.colors": "Problemen bij het analyseren van het kleurontwerpbestand: {0}. De eigenschap 'kleuren' is niet van het type 'object'.",
-            "error.invalidformat.semanticTokenColors": "Probleem bij het analyseren van kleurontwerpbestanden: {0}. De eigenschap 'semanticTokenColors' bevat een ongeldige selector.",
-            "error.invalidformat.tokenColors": "Probleem bij het analyseren van het kleurontwerpbestand: {0}. De eigenschap 'tokenColors' moet ofwel een array zijn dat kleuren instelt, of een pad naar een TextMate-ontwerpbestand.",
-            "error.plist.invalidformat": "Problemen bij het analyseren van het tmTheme-ontwerpbestand: {0}. 'instellingen' is geen array"
+            "error.cannotload": "Problemen bij het laden van het tmTheme-themabestand {0}: {1}",
+            "error.cannotparse": "Problemen bij het analyseren van het tmTheme-themabestand: {0}",
+            "error.cannotparsejson": "Problemen bij het analyseren van het JSON-themabestand: {0}",
+            "error.invalidformat": "Ongeldig formaat voor JSON-themabestand: object verwacht.",
+            "error.invalidformat.colors": "Problemen bij het analyseren van het kleurthemabestand: {0}. De eigenschap 'kleuren' is niet van het type 'object'.",
+            "error.invalidformat.semanticTokenColors": "Probleem bij het analyseren van kleurthemabestanden: {0}. De eigenschap 'semanticTokenColors' bevat een ongeldige selector.",
+            "error.invalidformat.tokenColors": "Probleem bij het analyseren van het kleurthemabestand: {0}. De eigenschap 'tokenColors' moet ofwel een array zijn dat kleuren instelt, of een pad naar een TextMate-themabestand.",
+            "error.plist.invalidformat": "Problemen bij het analyseren van het tmTheme-themabestand: {0}. 'instellingen' is geen array"
         },
         "vs/workbench/services/themes/common/colorThemeSchema": {
             "schema.colors": "Kleuren voor de syntax-hooglichting",
@@ -13454,13 +13460,13 @@
             "schema.properties.name": "Beschrijving van de regel.",
             "schema.properties.scope": "Bereikselectie waarmee deze regel een overeenkomst uitvoert.",
             "schema.semanticTokenColors": "Kleuren voor semantische tokens",
-            "schema.supportsSemanticHighlighting": "Geeft aan of semantische hooglichten voor dit ontwerp ingeschakeld moeten worden.",
+            "schema.supportsSemanticHighlighting": "Geeft aan of semantische hooglichten voor dit thema ingeschakeld moeten worden.",
             "schema.token.background.warning": "Token-achtergrondkleuren worden op dit moment niet ondersteund.",
             "schema.token.fontStyle": "De lettertypestijl van de regel: 'cursief', 'vet', 'onderstreept', 'doorgestreept' of een combinatie daarvan. Een lege tekenreeks wist alle ge\u00ebrfde instellingen.",
             "schema.token.fontStyle.none": "Geen (ge\u00ebrfde stijl wissen)",
             "schema.token.foreground": "Voorgrondkleur voor het token.",
             "schema.token.settings": "Kleuren en opmaakstijlen voor het token.",
-            "schema.tokenColors.path": "Pad naar een tmTheme-ontwerpbestand (relatief naar het huidige bestand).",
+            "schema.tokenColors.path": "Pad naar een tmTheme-themabestand (relatief naar het huidige bestand).",
             "schema.workbenchColors": "Kleuren in de werkbank"
         },
         "vs/workbench/services/themes/common/fileIconThemeSchema": {
@@ -13476,7 +13482,7 @@
             "schema.folderNames": "Koppelt mapnamen aan symbolen. De objectkey is de mapnaam zonder padsegmenten. Patronen of jokertekens zijn niet toegestaan. Bij het toekennen van mapnamen wordt geen onderscheid gemaakt tussen hoofdletters en kleine letters.",
             "schema.folderNamesExpanded": "Koppelt mapnamen aan symbolen voor uitgeklapte mappen. De objectkey is de mapnaam zonder padsegmenten. Patronen of jokertekens zijn niet toegestaan. Bij het toekennen van mapnamen wordt geen onderscheid gemaakt tussen hoofdletters en kleine letters.",
             "schema.font-format": "Het lettertypeformaat.",
-            "schema.font-path": "Het lettertypepad relatief naar het huidige bestandspictogram-ontwerpbestand.",
+            "schema.font-path": "Het lettertypepad relatief naar het huidige bestandspictogram-themabestand.",
             "schema.font-size": "De standaardlettergrootte. Geldige waarden zijn te vinden op https://developer.mozilla.org/de-de/docs/Web/CSS/font-size.",
             "schema.font-style": "De lettertypestijl. Geldige waarden zijn te vinden op https://developer.mozilla.org/de-DE/docs/Web/CSS/font-style.",
             "schema.font-weight": "De letterdikte. Geldige waarden zijn te vinden op https://developer.mozilla.org/de-DE/docs/Web/CSS/font-weight.",
@@ -13485,8 +13491,8 @@
             "schema.fontId": "Als u een lettertype gebruikt: de ID van het lettertype. Indien niet ingesteld, wordt standaard het eerste gedefinieerde lettertype gebruikt.",
             "schema.fontSize": "Bij het gebruik van een lettertype: de grootte van de letter als een percentage van de tekstlettertype. Als deze specificatie niet is ingesteld, wordt standaard de grootte in de lettertype-definitie gebruikt.",
             "schema.fonts": "Lettertypes die worden gebruikt in de symbooldetecties.",
-            "schema.hidesExplorerArrows": "Configureert of de bestandsverkennerpijlen moeten worden verborgen wanneer dit ontwerp actief is.",
-            "schema.highContrast": "Optionele toewijzingen voor bestandsymbolen in kleurontwerpen met hoog contrast.",
+            "schema.hidesExplorerArrows": "Configureert of de bestandsverkennerpijlen moeten worden verborgen wanneer dit thema actief is.",
+            "schema.highContrast": "Optionele toewijzingen voor bestandsymbolen in kleurthema's met hoog contrast.",
             "schema.iconDefinition": "Een symbooldefinitie. De objectkey is de ID van de definitie.",
             "schema.iconDefinitions": "Beschrijving van alle symbolen die kunnen worden gebruikt bij het toewijzen van bestanden aan symbolen.",
             "schema.iconPath": "Bij gebruik van een SVG- of PNG-bestand: het pad naar de afbeelding. Het pad is relatief naar het bestandsymboolbestand.",
@@ -13494,13 +13500,13 @@
             "schema.id.formatError": "De ID mag alleen letters, cijfers, underscores en koppeltekens bevatten.",
             "schema.languageId": "De ID van de symboldetectie voor de toewijzing.",
             "schema.languageIds": "Koppelt talen aan symbolen. De objectkey is de taal-ID zoals gedefinieerd in de taalcontributiepunt.",
-            "schema.light": "Optionele toewijzingen voor bestandsymbolen in lichte kleurontwerpen.",
+            "schema.light": "Optionele toewijzingen voor bestandsymbolen in lichte kleurthema's.",
             "schema.rootFolder": "Het mapictogram voor ingeklapte hoofdmap en, als rootFolderExpanded niet is ingesteld, ook voor uitgeklapte hoofdmap.",
             "schema.rootFolderExpanded": "Het mapictogram voor uitgeklapte hoofdmap. Het pictogram voor uitgeklapte hoofdmap is optioneel. Als deze specificatie niet is ingesteld, wordt het pictogram weergegeven dat is gedefinieerd voor de hoofdmap.",
             "schema.rootFolderNameExpanded": "De ID van de symboldetectie voor de toewijzing.",
             "schema.rootFolderNames": "Koppelt namen van hoofdmappen aan symbolen. De objectkey is de naam van de hoofdmap. Patronen of jokertekens zijn niet toegestaan. Bij het toewijzen van namen van hoofdmappen wordt geen onderscheid gemaakt tussen hoofdletters en kleine letters.",
             "schema.rootFolderNamesExpanded": "Koppelt namen van hoofdmappen aan symbolen voor uitgeklapte hoofdmappen. De objectkey is de naam van de hoofdmap. Patronen of jokertekens zijn niet toegestaan. Bij het toewijzen van namen van hoofdmappen wordt geen onderscheid gemaakt tussen hoofdletters en kleine letters.",
-            "schema.showLanguageModeIcons": "Configureert of de standaardtaalpictogrammen moeten worden gebruikt wanneer het ontwerp geen pictogram voor een taal definieert.",
+            "schema.showLanguageModeIcons": "Configureert of de standaardtaalpictogrammen moeten worden gebruikt wanneer het thema geen pictogram voor een taal definieert.",
             "schema.src": "De locatie van het lettertype."
         },
         "vs/workbench/services/themes/common/iconExtensionPoint": {
@@ -13520,7 +13526,7 @@
         },
         "vs/workbench/services/themes/common/productIconThemeSchema": {
             "schema.font-format": "Het formaat van het lettertype.",
-            "schema.font-path": "Het lettertypepad relatief naar het huidige productpictogram-ontwerpbestand.",
+            "schema.font-path": "Het lettertypepad relatief naar het huidige productpictogram-themabestand.",
             "schema.font-style": "De stijl van het lettertype. Geldige waarden zijn te vinden op https://developer.mozilla.org/de-DE/docs/Web/CSS/font-style.",
             "schema.font-weight": "De dikte van het lettertype. Geldige waarden zijn te vinden op https://developer.mozilla.org/de-DE/docs/Web/CSS/font-weight.",
             "schema.iconDefinitions": "Toewijzing van symboolnaam aan een lettertypekarakter.",
@@ -13529,38 +13535,38 @@
             "schema.src": "De locatie van het lettertype."
         },
         "vs/workbench/services/themes/common/themeConfiguration": {
-            "autoDetectHighContrast": "Indien ingeschakeld, wordt automatisch overgeschakeld naar een hoog contrast ontwerp wanneer het besturingssysteem een hoog contrast ontwerp gebruikt. Het te gebruiken hoogcontrast ontwerp is gespecificeerd door '{0}' en '{1}'.",
-            "colorTheme": "Geeft het kleurenontwerp aan dat in de werkbank wordt gebruikt als {0} niet is ingeschakeld.",
-            "colorThemeError": "Het ontwerp is onbekend of niet ge\u00efnstalleerd.",
+            "autoDetectHighContrast": "Indien ingeschakeld, wordt automatisch overgeschakeld naar een hoog-contrastthema wanneer het besturingssysteem een hoog-contrastthemaa gebruikt. Het te gebruiken hoog-contrastthema is gespecificeerd door '{0}' en '{1}'.",
+            "colorTheme": "Geeft het kleurenthema aan dat in de werkbank wordt gebruikt als {0} niet is ingeschakeld.",
+            "colorThemeError": "Het thema is onbekend of niet ge\u00efnstalleerd.",
             "defaultProductIconThemeDesc": "Standaard",
             "defaultProductIconThemeLabel": "Standaard",
-            "detectColorScheme": "Als deze optie is ingeschakeld, wordt automatisch een kleurenontwerp geselecteerd op basis van de systeemkleurmodus. Als de systeemkleurmodus donker is, wordt {0} gebruikt, anders {1}.",
-            "editorColors": "Overschrijft de kleuren en lettertypestijl voor de editor-syntax van het momenteel geselecteerde kleurenontwerp.",
+            "detectColorScheme": "Als deze optie is ingeschakeld, wordt automatisch een kleurenthema geselecteerd op basis van de systeemkleurmodus. Als de systeemkleurmodus donker is, wordt {0} gebruikt, anders {1}.",
+            "editorColors": "Overschrijft de kleuren en lettertypestijl voor de editor-syntax van het momenteel geselecteerde kleurenthema.",
             "editorColors.comments": "Stel de kleuren en stijlen voor opmerkingen in.",
             "editorColors.functions": "Stelt de kleuren en stijlen in voor functiedeclaraties en verwijzingen.",
             "editorColors.keywords": "Stelt de kleuren en stijlen in voor sleutelwoorden.",
             "editorColors.numbers": "Stelt de kleuren en stijlen in voor numerieke literatuur.",
-            "editorColors.semanticHighlighting": "Geeft aan of semantische hooglichten voor dit ontwerp ingeschakeld moeten worden.",
+            "editorColors.semanticHighlighting": "Geeft aan of semantische hooglichten voor dit thema ingeschakeld moeten worden.",
             "editorColors.semanticHighlighting.deprecationMessage": "Gebruik in plaats daarvan 'ingeschakeld' in de instelling 'editor.semanticTokenColorCustomizations'.",
             "editorColors.semanticHighlighting.deprecationMessageMarkdown": "Gebruik in plaats daarvan 'ingeschakeld' in de instelling {0}.",
-            "editorColors.semanticHighlighting.enabled": "Geeft aan of de semantische hooglichting voor dit ontwerp is ingeschakeld of uitgeschakeld.",
-            "editorColors.semanticHighlighting.rules": "Formaatregels voor semantische tokens voor dit ontwerp.",
+            "editorColors.semanticHighlighting.enabled": "Geeft aan of de semantische hooglichting voor dit thema is ingeschakeld of uitgeschakeld.",
+            "editorColors.semanticHighlighting.rules": "Formaatregels voor semantische tokens voor dit thema.",
             "editorColors.strings": "Stel de kleuren en stijlen voor tekenreeksen in.",
-            "editorColors.textMateRules": "Stelt kleuren en stijlen in met behulp van Textmate-ontwerpregels (uitgebreid).",
+            "editorColors.textMateRules": "Stelt kleuren en stijlen in met behulp van Textmate-themaregels (uitgebreid).",
             "editorColors.types": "Stelt de kleuren en stijlen in voor typedeclaraties en verwijzingen.",
             "editorColors.variables": "Stelt de kleuren en stijlen in voor variabelendeclaraties en verwijzingen.",
-            "iconTheme": "Geeft het bestandspictogramontwerp aan dat in de werkbank wordt gebruikt, of 'null' om geen bestandspictogrammen weer te geven.",
-            "iconThemeError": "Bestandspictogramontwerp is onbekend of niet ge\u00efnstalleerd.",
+            "iconTheme": "Geeft het bestandspictogramthema aan dat in de werkbank wordt gebruikt, of 'null' om geen bestandspictogrammen weer te geven.",
+            "iconThemeError": "Bestandspictogramthema is onbekend of niet ge\u00efnstalleerd.",
             "noIconThemeDesc": "Geen bestandspictogrammen",
             "noIconThemeLabel": "Geen",
-            "preferredDarkColorTheme": "Geeft het kleurenontwerp aan wanneer de systeemkleurmodus donker is en {0} is ingeschakeld.",
-            "preferredHCDarkColorTheme": "Geeft het kleurenontwerp in hoogcontrast-donkere modus en als {0} is ingeschakeld.",
-            "preferredHCLightColorTheme": "Geeft het kleurenontwerp in hoogcontrast-lichte modus en als {0} is ingeschakeld.",
-            "preferredLightColorTheme": "Geeft het kleurenontwerp aan wanneer de systeemkleurmodus licht is en {0} is ingeschakeld.",
-            "productIconTheme": "Geeft het gebruikte productpictogramontwerp aan.",
-            "productIconThemeError": "Het productpictogramontwerp is onbekend of niet ge\u00efnstalleerd.",
-            "semanticTokenColors": "Overschrijft de kleuren en stijlen voor semantische tokens in de editor van het momenteel geselecteerde kleurenontwerp.",
-            "workbenchColors": "Overschrijft kleuren uit het momenteel geselecteerde kleurenontwerp."
+            "preferredDarkColorTheme": "Geeft het kleurenthema aan wanneer de systeemkleurmodus donker is en {0} is ingeschakeld.",
+            "preferredHCDarkColorTheme": "Geeft het kleurenthema in hoogcontrast-donkere modus en als {0} is ingeschakeld.",
+            "preferredHCLightColorTheme": "Geeft het kleurenthema in hoogcontrast-lichte modus en als {0} is ingeschakeld.",
+            "preferredLightColorTheme": "Geeft het kleurenthema aan wanneer de systeemkleurmodus licht is en {0} is ingeschakeld.",
+            "productIconTheme": "Geeft het gebruikte productpictogramthema aan.",
+            "productIconThemeError": "Het productpictogramthema is onbekend of niet ge\u00efnstalleerd.",
+            "semanticTokenColors": "Overschrijft de kleuren en stijlen voor semantische tokens in de editor van het momenteel geselecteerde kleurenthema.",
+            "workbenchColors": "Overschrijft kleuren uit het momenteel geselecteerde kleurenthema."
         },
         "vs/workbench/services/themes/common/themeExtensionPoints": {
             "color themes": "Kleurenschema's",
@@ -13612,8 +13618,8 @@
             "invalid.superType.format": "\"configuration.{0}.superType\" moet overeenkomen met het patroon letterOfCijfer[-_letterOfCijfer]*"
         },
         "vs/workbench/services/themes/electron-sandbox/themes.contribution": {
-            "window.systemColorTheme": "Stel de kleurmodus in voor native gebruikersinterface-elementen zoals native dialoogvensters, menu's en titelbalken. Ook als je besturingssysteem is geconfigureerd in de lichte kleurmodus, kan je een donker systeemkleurontwerp voor het venster selecteren. Je kan ook de automatische aanpassing configureren op basis van de instelling {0}\r\n\r\nOpmerking: Deze instelling wordt genegeerd als {1} is ingeschakeld",
-            "window.systemColorTheme.auto": "Gebruik lichte native widgetkleuren voor lichte kleurontwerpen en donkere voor donkere kleurontwerpen",
+            "window.systemColorTheme": "Stel de kleurmodus in voor native gebruikersinterface-elementen zoals native dialoogvensters, menu's en titelbalken. Ook als je besturingssysteem is geconfigureerd in de lichte kleurmodus, kan je een donker systeemkleurthema voor het venster selecteren. Je kan ook de automatische aanpassing configureren op basis van de instelling {0}\r\n\r\nOpmerking: Deze instelling wordt genegeerd als {1} is ingeschakeld",
+            "window.systemColorTheme.auto": "Gebruik lichte native widgetkleuren voor lichte kleurthema's en donkere voor donkere kleurthema's",
             "window.systemColorTheme.dark": "Gebruik donkere native widgetkleuren",
             "window.systemColorTheme.default": "Native widgetkleuren komen overeen met systeemkleuren",
             "window.systemColorTheme.light": "Gebruik lichte native widgetkleuren"
