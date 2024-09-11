@@ -5918,7 +5918,7 @@
             "topStackFrameLineHighlight": "Achtergrondkleur voor het markeren van de regel op de positie van het bovenste stackframe."
         },
         "vs/workbench/contrib/debug/browser/callStackView": {
-            "callStackAriaLabel": "Belstack debuggen",
+            "callStackAriaLabel": "Aanroepstack debuggen",
             "collapse": "Alles samenvouwen",
             "loadAllStackFrames": "Meer stackframes laden",
             "paused": "Gepauzeerd",
